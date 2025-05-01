@@ -76,7 +76,7 @@
                 <div class="col-lg-5 col-md-7 bg-white">
                     <div class="p-3">
                         <div class="text-center">
-                            <img src="../assets/images/big/icon.png" alt="wrapkit">
+                            <img src="../assets/images/big/mmu_logo.png" alt="wrapkit" width="250">
                         </div>
                         <h2 class="mt-3 text-center">Admin Login</h2>
                         
