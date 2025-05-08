@@ -11,17 +11,17 @@
                         <a href="dashboard.php">
                             <b class="logo-icon">
                                 <!-- Dark Logo icon -->
-                                <img src="../assets/images/logo-icon-nav.png" alt="homepage" class="dark-logo" />
+                                <img src="../assets/images/mmu-logo-icon.png" alt="homepage" class="dark-logo"  width="50px"/>
                                 <!-- Light Logo icon -->
-                                <img src="../assets/images/logo-icon-nav.png" alt="homepage" class="light-logo" />
+                                <img src="../assets/images/mmu-logo-icon.png" alt="homepage" class="light-logo" width="50px"/>
                             </b>
                             <!--End Logo icon -->
                             <!-- Logo text -->
                             <span class="logo-text">
                                 <!-- dark Logo text -->
-                                <img src="../assets/images/logo-text-nav.png" alt="homepage" class="dark-logo" />
+                                <img src="../assets/images/mmu-logo.png" alt="homepage" class="dark-logo" width="125px"/>
                                 <!-- Light Logo text -->
-                                <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                                <img src="../assets/images/mmu-logo.png" class="light-logo" alt="homepage" width="125px"/>
                             </span>
                         </a>
                     </div>
