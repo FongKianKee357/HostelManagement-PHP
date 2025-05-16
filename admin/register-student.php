@@ -127,9 +127,9 @@
                         <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Registration Number</h4>
+                                    <h4 class="card-title">Student ID</h4>
                                         <div class="form-group">
-                                            <input type="text" name="regno" placeholder="Enter Registration Number" id="regno" class="form-control" required>
+                                            <input type="text" name="regno" placeholder="Enter Student ID" id="regno" class="form-control" required>
                                         </div>
                                     
                                 </div>
@@ -141,9 +141,9 @@
                         <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">First Name</h4>
+                                    <h4 class="card-title">Nick Name</h4>
                                         <div class="form-group">
-                                            <input type="text" name="fname" id="fname" placeholder="Enter First Name" required class="form-control">
+                                            <input type="text" name="fname" id="fname" placeholder="Enter Nick Name" required class="form-control">
                                         </div>
                                 </div>
                             </div>
@@ -153,9 +153,9 @@
                         <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Middle Name</h4>
+                                    <h4 class="card-title">First Name</h4>
                                         <div class="form-group">
-                                            <input type="text" name="mname" id="mname" placeholder="Enter Middle Name" required class="form-control">
+                                            <input type="text" name="mname" id="mname" placeholder="Enter First Name" required class="form-control">
                                         </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title">Last Name</h4>
                                         <div class="form-group">
-                                            <input type="text" name="lname" id="lname" placeholder="Enter Middle Name" required class="form-control">
+                                            <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required class="form-control">
                                         </div>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Email ID</h4>
+                                    <h4 class="card-title">Email</h4>
                                         <div class="form-group">
                                             <input type="email" name="email" id="email" placeholder="Your Email" onBlur="checkAvailability()" required="required" class="form-control">
                                             <span id="user-availability-status" style="font-size:12px;"></span>
