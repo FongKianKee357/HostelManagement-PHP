@@ -127,7 +127,7 @@
                                                 <th>Reg. No.</th>
                                                 <th>Student's Name</th>
                                                 <th>Room No.</th>
-                                                <th>Seater</th>
+                                                <th>Bed No.</th>
                                                 <th>Staying From</th>
                                                 <th>Contact</th>
                                                 <th>Actions</th>
