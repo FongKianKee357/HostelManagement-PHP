@@ -185,7 +185,7 @@
                                           <td><b>Starting Date :</b></td>
                                           <td><?php echo $row->stayfrom;?></td>
 
-                                          <td><b>Seater :</b></td>
+                                          <td><b>Bed Number :</b></td>
                                           <td><?php echo $row->seater;?></td>
 
 
@@ -206,7 +206,7 @@
                                           ;?> </td>
 
                                           <td><b>Fees Per Month :</b></td>
-                                          <td>$<?php echo $fpm=$row->feespm;?></td>
+                                          <td>RM <?php echo $fpm=$row->feespm;?></td>
 
                                           
 
@@ -216,9 +216,9 @@
                                           <td colspan="6"><b>Total Fees (<?php echo ($dr).' months'?>) : 
                                           <?php if($row->foodstatus==1){ 
                                           $fd=211; 
-                                          echo '$'.(($fd+$fpm)*$dr);
+                                          echo 'RM '.(($fd+$fpm)*$dr);
                                           } else {
-                                          echo '$'.$dr*$fpm;
+                                          echo 'RM '.$dr*$fpm;
                                           }
                                           ?></b></td>
                                           </tr>

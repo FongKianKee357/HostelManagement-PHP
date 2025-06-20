@@ -223,9 +223,9 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Bed Number</h4>
+                                <h4 class="card-title">Seater</h4>
                                     <div class="form-group">
-                                        <input type="text" id="seater" name="seater" placeholder="Enter Bed No." required class="form-control">
+                                        <input type="text" id="seater" name="seater" placeholder="Enter Seater No." required class="form-control">
                                     </div>
                             </div>
                         </div>
@@ -250,7 +250,7 @@
                                             <option value="9">Nine Month</option>
                                             <option value="10">Ten Month</option>
                                             <option value="11">Eleven Month</option>
-                                            <option value="12">One Year</option>
+                                            <option value="12">Twelve Month</option>
                                         </select>
                                     </div>
                               
@@ -266,7 +266,7 @@
                                 <div class="custom-control custom-radio">
                                     <input type="radio" id="customRadio1" value="1" name="foodstatus"
                                         class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio1">Required <code>Extra RM200 Per Month</code></label>
+                                    <label class="custom-control-label" for="customRadio1">Required <code>Extra $211 Per Month</code></label>
                                 </div>
                                 <div class="custom-control custom-radio">
                                     <input type="radio" id="customRadio2" value="0" name="foodstatus"
@@ -277,9 +277,30 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Total Fees Per Month</h4>
+                                    <div class="form-group">
+                                        <input type="text" name="fpm" id="fpm" placeholder="Your total fees" class="form-control">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
                     
 
-                
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Total Amount</h4>
+                                    <div class="form-group">
+                                        <input type="text" name="ta"  id="ta" placeholder="Total Amount here.." required class="form-control">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
                   
                 
                 </div>
